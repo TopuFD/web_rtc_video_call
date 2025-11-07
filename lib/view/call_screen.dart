@@ -73,7 +73,7 @@ class CallScreen extends StatelessWidget {
                             ),
                             _buildDebugRow(
                               "Room ID",
-                              callCtrl.roomId,
+                              "12345678",
                             ),
                           ],
                         ),

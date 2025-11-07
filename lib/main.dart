@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
-import 'package:video_call/service/socet_service.dart';
-import 'package:video_call/view/call_screen.dart';
 import 'package:video_call/view/home_screen.dart';
 void main()async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await SocketService.connectSocket();
   runApp(const MyApp());
 }
 
